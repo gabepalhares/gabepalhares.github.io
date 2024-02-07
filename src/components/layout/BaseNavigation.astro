@@ -1,0 +1,81 @@
+---
+interface Props {
+  pageTitle?: string;
+}
+
+const navigationItems = [
+  { name: 'Home', url: '/' },
+  { name: 'cv', url: '/curriculum/' },
+];
+
+const socialIcons = [
+{
+    name: 'GitHub',
+    url: 'https://github.com/gopherwaves',
+    icon: 'i-uil-github',
+  },  
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/gopherwaves/',
+    icon: 'i-uil-linkedin',
+  },  
+  {
+    name: 'X',
+    url: 'https://twitter.com/gopherwaves',
+    icon: 'i-uil-twitter',
+  },
+  {
+    name: 'G-Mail',
+    url: 'mailto:gabrielpalharesdev@gmail.com',
+    icon: 'i-uil-envelope-alt' },
+];
+
+const { pageTitle } = Astro.props;
+---
+
+<header class='border-b-4 border-black flex justify-between p-6 items-center'>
+  {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
+  <a href='/' title='Back to Home'>
+    <p class='righteous md:text-5xl'>Gabriel Palhares</p>
+  </a>
+  <nav class='hidden md:inline-block'>
+    <h2 class='hidden'>Nav</h2>
+    <ul class='flex gap-8 poppins'>
+      {
+        navigationItems.map((item) => (
+          <li>
+            <a
+              class='text-lg font-medium hover:text-green hover:underline transition-all duration-150 ease-in-out'
+              href={item.url}
+              title={`Go to ${item.name}`}
+            >
+              {item.name}
+            </a>
+          </li>
+        ))
+      }
+      {
+        socialIcons.map((item) => (
+          <li>
+            <a
+              href={item.url}
+              class='hover:text-green hover:underline transition-all duration-150 ease-in-out'
+              target='_blank'
+              title={`'@GabrielPalhares on ${item.name}`}
+            >
+              <div class:list={[item.icon, 'w-6 h-6']} />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+  <nav class='md:hidden flex'>
+    <h2 class='hidden'>Mobile Navigation</h2>
+    <ul>
+      <li class="poppins">
+        <a href="/curriculum">cv</a>
+      </li>
+    </ul>
+  </nav>
+</header>
