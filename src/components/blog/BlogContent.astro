@@ -8,9 +8,9 @@ const { content } = Astro.props;
 
 <article class='prose-slate w-sm md:w-prose md:prose poppins'>
   <p class='text-slate text-sm md:text-base'>
-    Publicado em {content.pubDate} por {content.author}
+    Published on {content.pubDate} by {content.author}
   </p>
   <slot />
-  <p class='text-slate'>Escrito por {content.author}</p>
-  <a href='/blog/' title='Back to projects'>&larr; Voltar</a>
+  <p class='text-slate'>Written by {content.author}</p>
+  <a href='/blog/' title='Back to projects'>&larr; Back</a>
 </article>

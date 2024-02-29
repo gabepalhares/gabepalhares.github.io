@@ -10,7 +10,7 @@ const skills = [
   { name: 'React', url: 'https://react.dev/' },
   { name: 'TailwindCSS', url: 'https://tailwindcss.com/' },
   { name: 'Node.js', url: 'https://nodejs.org/en' },
-  { name: 'Golang', url: 'https://go.dev/' },
+  { name: 'Go', url: 'https://go.dev/' },
   { name: 'Git', url: 'https://git-scm.com/' },
   { name: 'MongoDB', url: 'https://www.mongodb.com/' },
   { name: 'PostgreSQL', url: 'https://www.postgresql.org/' },
@@ -19,14 +19,14 @@ const skills = [
   { name: 'CSS3' },
   { name: 'GitHub', url: 'https://github.com/' },
   { name: 'eXtreme Programming', url: 'http://www.extremeprogramming.org/' },
-  { name: 'Estrutura de Dados' },
-  { name: 'Algoritmos' },
+  { name: 'Data Structures' },
+  { name: 'Algorithms' },
 ];
 
-const idiomas = [
-  { name: 'Português (Brasil) - Língua nativa' },
-  { name: 'Inglês C1 - Nível avançado' },
-  { name: 'Espanhol A1 - Nível básico' },
+const languages = [
+  { name: 'Portuguese - Native' },
+  { name: 'English C1 - Advanced' },
+  { name: 'Spanish A1 - Basic' },
 ];
 ---
 
@@ -36,27 +36,33 @@ const idiomas = [
   description='Gabriel Palhares cv page.'
 >
   <main class='bg-blue p-6'>
-    <div class="flex items-center justify-center mb-4">
-        <Button
-            target={'_self'}
-            href={pdf}>
-            CV Download &darr;
-        </Button>
+    <div class="flex items-center gap-4 justify-center mb-4">
+      <Button
+        target={'_self'}
+        href={pdf}>
+          CV Download en-us &darr;
+      </Button>  
+      <Button
+        target={'_self'}
+        href={pdf}>
+          CV Download pt-br &darr;
+      </Button>
     </div>
     <section id='cards' class='grid md:grid-cols-8 gap-6'>
     <div class='col-span-4 md:col-span-3'>
         <Card>
           <div class='flex flex-col justify-between items-start gap-4'>
             <h2 class='outfit text-2xl md:text-4xl lg:text-6xl'>
-              Sobre
+              About
             </h2>
             <p class='poppins'>
-               Sou um desenvolvedor web full-stack e um eterno estudante de computação.
-               Trabalho trazendo soluções tanto em front-end quanto em back-end, utilizando tecnologias como JavaScript, TypeScript, React.js e Node.js.
-               Também possuo conhecimento prático em bancos de dados relacionais e não relacionais, como PostgreSQL e MongoDB.
+              I'm a full-stack web developer and a lifelong computer science student.
+              I work on providing solutions both in front-end and back-end, using technologies like JavaScript, TypeScript, React.js, and Node.js.
+              I also have practical knowledge in relational and non-relational databases, such as PostgreSQL and MongoDB.
             </p>
             <p class='poppins'>
-               Quando não estou codando, você provavelmente vai me encontrar praticando mountain bike e vivendo um estilo de vida conectado à natureza. Sou apaixonado por trilhas, cachoeiras, paisagens e em colecionar pores do sol.
+              When I'm not coding, you'll find me enjoying mountain biking and living an outdoor lifestyle.
+              I'm passionate about trails, waterfalls, landscapes, and collecting sunsets.
             </p>
           </div>
         </Card>
@@ -64,26 +70,26 @@ const idiomas = [
     <div class='col-span-4 md:col-span-2'>
         <Card>
           <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
-            Formação acadêmica
+            Education
           </h2>
             <ol>
                 <li>
                     <p class='poppins mb-3'>
-                    <strong>• Bacharelado - Direito</strong>
+                    <strong>• Bachelor's degree - Law</strong>
                     <br />
                     Faculdade Asa de Brumadinho / 2019 - 2023
                     </p>
                 </li>
                 <li>
                     <p class='poppins mb-3'>
-                    <strong>• Bacharelado em Tecnologia - Análise e Desenvolvimento de Sistemas</strong>
+                    <strong>• Bachelor in Tech - Analysis and Systems Development</strong>
                     <br />
                     PUC Minas / 2022 - 2024
                     </p>
                 </li>
                 <li>
                     <p class='poppins'>
-                    <strong>• Extensão Universitária - Engenharia de Software Moderna</strong>
+                    <strong>• University extension program - Modern Software Engineering</strong>
                     <br />
                     UFMG / 2024 - 2024
                     </p>
@@ -119,7 +125,7 @@ const idiomas = [
     <div class='col-span-4 md:col-span-2'>
         <Card>
           <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
-            Cursos
+            Courses
           </h2>
             <ol>
                 <li>
@@ -152,9 +158,9 @@ const idiomas = [
                 </li>
                 <li>
                     <p class='poppins mb-3'>
-                    <strong>Criação de Startups: Como desenvolver negócios inovadores</strong>
+                    <strong>Startup Creation: How to Develop Innovative Businesses</strong>
                     <br />
-                    USP - Universidade de São Paulo
+                    USP - University of São Paulo
                     </p>
                 </li>
                 <li>
@@ -170,11 +176,11 @@ const idiomas = [
     <div class='col-span-4 md:col-span-2'>
         <Card>
           <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
-            Idiomas
+            Languages
           </h2>
           <ul class='flex gap-4 flex-wrap'>
             {
-              idiomas.map((item) => (
+              languages.map((item) => (
                 <li>
                   <Pill>
                     <a
@@ -191,13 +197,13 @@ const idiomas = [
     <div class='col-span-4 md:col-span-2'>
         <Card>
           <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
-            Onde estou?
+            Where am I?
           </h2>
             <p class='poppins mb-3'>
-              <strong>• Brumadinho - Minas Gerais</strong>
+              <strong>• Brumadinho, Minas Gerais, Brazil</strong>
               <br />
-              Há 50km de distância da capital Belo Horizonte.
-              Disponível para trabalhos remotos e/ou híbridos.
+              It's 50km away from the capital Belo Horizonte/MG.
+              I'm available for remote and/or hybrid work.
             </p>
     </div>
     </section>
