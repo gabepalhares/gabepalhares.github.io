@@ -1,7 +1,7 @@
 ---
 title: Your Tech Career Should be Like a Motorsport
 author: Gabriel Palhares
-pubDate: 17/01/2024
+pubDate: 2024-01-17 08:00
 tags:
   - Productivity
   - Career

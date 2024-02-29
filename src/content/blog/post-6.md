@@ -1,7 +1,7 @@
 ---
 title: Personal lists
 description: My personal lists of books and blogs I read, people I admire, etc.
-pubDate: 28/02/2024
+pubDate: 2024-02-28 08:30
 author: Gabriel Palhares
 tags:
   - People

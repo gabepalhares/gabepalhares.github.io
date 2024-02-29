@@ -1,6 +1,6 @@
 ---
 title: Woovi Bets on JavaScript, Should You?
-pubDate: 03/01/2024
+pubDate: 2024-01-03 09:30
 author: "Gabriel Palhares"
 tags:
   - JavaScript

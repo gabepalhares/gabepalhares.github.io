@@ -1,7 +1,7 @@
 ---
 title: 'Mountain bikes and Code: Making the Best Decisions to Become Senior'
 author: Gabriel Palhares
-pubDate: 19/01/2024
+pubDate: 2024-01-19 09:00
 tags:
   - Webdev
   - Mtb

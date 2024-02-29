@@ -1,6 +1,6 @@
 ---
 title: Why I Personally Decided to Bet on JavaScript
-pubDate: 05/01/2024
+pubDate: 2024-01-05 09:30
 author: "Gabriel Palhares"
 tags:
   - Javascript
