@@ -4,10 +4,9 @@ description: My personal lists of books and blogs I read, people I admire, etc.
 pubDate: 2024-02-28 08:30
 author: Gabriel Palhares
 tags:
-  - People
+  - Lists
   - Blogs
   - Books
-  - Videos
 imgUrl: '../../assets/cottonbro-studio.jpg'
 layout: "../../layouts/BlogPost.astro"
 ---
@@ -19,12 +18,14 @@ layout: "../../layouts/BlogPost.astro"
 
 - [Sibelius Seraphini](https://twitter.com/sseraphini)
 - [Armando Magalhães](https://twitter.com/armand1m)
-- [Pieter Levels](https://twitter.com/levelsio)
-- [The Primeagen](https://twitter.com/ThePrimeagen)
 - [Vitor Liberato](https://twitter.com/vitorliberato)
+- [Laís Lima](https://twitter.com/laislima_dev)
+- [Beatriz Oliveira](https://twitter.com/biantris_)
 - [Laura Beatris](https://twitter.com/lauradotjs)
 - [TK](https://twitter.com/wordsofteekay)
 - [Guilherme Noghartt](https://twitter.com/noghartt)
+- [Pieter Levels](https://twitter.com/levelsio)
+- [The Primeagen](https://twitter.com/ThePrimeagen)
 
 ### Books
 - [A arte da Guerra](https://a.co/d/1oyHG9A) - Sun Tzu
