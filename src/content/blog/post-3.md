@@ -4,8 +4,6 @@ description: A career in technology is full of rabbit holes; understand what the
 pubDate: 2024-01-11 08:40
 author: Gabriel Palhares
 tags: 
-  - Webdev
-  - Programming
   - Productivity
   - Learning
 imgUrl: '../../assets/ray-bilcliff.png'
