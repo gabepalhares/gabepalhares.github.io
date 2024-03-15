@@ -6,7 +6,6 @@ tags:
   - Javascript
   - Fullstack
   - Webdev
-  - Programming
 imgUrl: '../../assets/carissa-strickland.png'
 description: I explained my decision to invest in JavaScript and shared some of the main mistakes I made as a beginner.
 layout: '../../layouts/BlogPost.astro'
