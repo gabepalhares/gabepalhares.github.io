@@ -80,7 +80,7 @@ Oliver Stone
 - [Hacker News Digest](https://hndigest.com/)
 - [ByteByteGo](https://blog.bytebytego.com/)
 - [The Palindrome](https://thepalindrome.org/)
-- [Sahil Bloom](https://www.sahilbloom.com/newsletter)
+- [A Semana Go](https://substack.com/@asemanago)
 
 ---
 
