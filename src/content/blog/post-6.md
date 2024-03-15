@@ -35,6 +35,16 @@ layout: "../../layouts/BlogPost.astro"
 - [Uma breve história do tempo](ttps://a.co/d/hHApi0I) - Stephen Hawking
 - [O fim da eternidade](https://a.co/d/g69hvrY) - Isaac Asimov
 
+### Movies worth watching
+
+- [Whiplash](https://www.imdb.com/title/tt2582802/?ref_=ext_shr_lnk) - Damien Chazelle
+- [Fantastic Mr. Fox](https://www.imdb.com/title/tt0432283/?ref_=ext_shr_lnk) - Wes Anderson
+- [The Godfather Part II](https://www.imdb.com/title/tt0071562/?ref_=ext_shr_lnk) - Francis Ford Coppola 
+- [Interstellar](https://www.imdb.com/title/tt0816692/?ref_=ext_shr_lnk) - Christopher Nolan
+- [Snowden](https://www.imdb.com/title/tt3774114/?ref_=ext_shr_lnk) - 
+Oliver Stone
+- [Ocean Waves](https://www.imdb.com/title/tt0108432/?ref_=ext_shr_lnk) - Tomomi Mochizuki, Studio Ghibli
+
 ### Videos worth watching
 - [Motivação para estudar](https://youtu.be/TRPBY_lxJfE?si=-wBYF18mw8QMy6z_) - Clóvis de Barros Filho
 - [Tempo & Espaço](https://youtu.be/riZCue7QhqA?si=zeyScy35y8QsuVHZ) - Vitor Liberato
