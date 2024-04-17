@@ -19,13 +19,11 @@ layout: "../../layouts/BlogPost.astro"
 - [Sibelius Seraphini](https://twitter.com/sseraphini)
 - [Armando Magalhães](https://twitter.com/armand1m)
 - [Vitor Liberato](https://twitter.com/vitorliberato)
+- [Laura Beatris](https://twitter.com/lauradotjs)
 - [Laís Lima](https://twitter.com/laislima_dev)
 - [Beatriz Oliveira](https://twitter.com/biantris_)
-- [Laura Beatris](https://twitter.com/lauradotjs)
 - [TK](https://twitter.com/wordsofteekay)
 - [Guilherme Noghartt](https://twitter.com/noghartt)
-- [Pieter Levels](https://twitter.com/levelsio)
-- [The Primeagen](https://twitter.com/ThePrimeagen)
 
 ### Books
 - [A arte da Guerra](https://a.co/d/1oyHG9A) - Sun Tzu
@@ -55,13 +53,11 @@ Oliver Stone
 **Personal and CS blogs**
 - [Naval](https://nav.al/archive)
 - [Sam Altman](https://blog.samaltman.com/)
-- [Julian Shapiro](https://www.julian.com/)
 - [Sibelius Zettelkasten](https://sibelius.github.io/zettelkasten/)
 - [Paul Graham](https://paulgraham.com/articles.html)
 - [Armand1m](https://armand1m.dev/writing)
 - [Words of TK](https://www.iamtk.co/)
 - [Noghartt's garden](https://www.noghartt.dev/)
-- [Lucas F. Costa](https://lucasfcosta.com/)
 
 **Company blogs**
 - [Mercado Libre](https://medium.com/mercadolibre-tech)
