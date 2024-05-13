@@ -16,14 +16,13 @@ layout: "../../layouts/BlogPost.astro"
 
 ### People I admire and inspire me
 
+- My Father
 - [Sibelius Seraphini](https://twitter.com/sseraphini)
 - [Armando Magalhães](https://twitter.com/armand1m)
 - [Vitor Liberato](https://twitter.com/vitorliberato)
 - [Laura Beatris](https://twitter.com/lauradotjs)
 - [Laís Lima](https://twitter.com/laislima_dev)
 - [Beatriz Oliveira](https://twitter.com/biantris_)
-- [TK](https://twitter.com/wordsofteekay)
-- [Guilherme Noghartt](https://twitter.com/noghartt)
 
 ### Books
 - [A arte da Guerra](https://a.co/d/1oyHG9A) - Sun Tzu
@@ -71,12 +70,6 @@ Oliver Stone
 - [Financial Samurai](https://www.financialsamurai.com/)
 - [The College Investor](https://thecollegeinvestor.com/)
 - [The Happy Saver](https://www.thehappysaver.com/blog)
-
-**Newsletters**
-- [Hacker News Digest](https://hndigest.com/)
-- [ByteByteGo](https://blog.bytebytego.com/)
-- [The Palindrome](https://thepalindrome.org/)
-- [A Semana Go](https://substack.com/@asemanago)
 
 ---
 
