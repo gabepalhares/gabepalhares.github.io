@@ -3,7 +3,8 @@ import Layout from '@layouts/Default.astro';
 import { Button } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
 import { Pill } from '@eliancodes/brutal-ui';
-import pdf from 'src/components/pdf/cv - Gabriel Eduardo Palhares.pdf';
+import pdfenus from 'src/components/pdf/cv - en,us.pdf';
+import pdfptbr from 'src/components/pdf/cv - pt,br.pdf';
 
 const skills = [
   { name: 'Typescript', url: 'https://www.typescriptlang.org/' },
@@ -42,12 +43,12 @@ const languages = [
     <div class="flex gap-4 justify-center mb-4">
       <Button
         target={'_self'}
-        href={pdf}>
+        href={pdfenus}>
           CV Download en-us &darr;
       </Button>  
       <Button
         target={'_self'}
-        href={pdf}>
+        href={pdfptbr}>
           CV Download pt-br &darr;
       </Button>
     </div>
