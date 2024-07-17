@@ -17,20 +17,21 @@ layout: "../../layouts/BlogPost.astro"
 ### People I admire and inspire me
 
 - My Father
-- [Sibelius Seraphini](https://twitter.com/sseraphini)
-- [Armando Magalhães](https://twitter.com/armand1m)
 - [Vitor Liberato](https://twitter.com/vitorliberato)
+- [Armando Magalhães](https://twitter.com/armand1m)
+- [Sibelius Seraphini](https://twitter.com/sseraphini)
 - [Laura Beatris](https://twitter.com/lauradotjs)
-- [Laís Lima](https://twitter.com/laislima_dev)
 - [Beatriz Oliveira](https://twitter.com/biantris_)
 
 ### Books
-- [A arte da Guerra](https://a.co/d/1oyHG9A) - Sun Tzu
+
 - [Structure and Interpretation of Computer Programs](https://a.co/d/4xWTqFD) - MIT
-- [Anti-frágil: Coisas que se beneficiam com o caos](https://a.co/d/901h9Dk) - Nassim Nicholas Taleb
-- [A lógica do Cisne Negro](https://a.co/d/60rinDK) - Nassim Nicholas Taleb
 - [Uma breve história do tempo](ttps://a.co/d/hHApi0I) - Stephen Hawking
 - [O fim da eternidade](https://a.co/d/g69hvrY) - Isaac Asimov
+- [A arte da Guerra](https://a.co/d/1oyHG9A) - Sun Tzu
+- [A lógica do Cisne Negro](https://a.co/d/60rinDK) - Nassim Nicholas Taleb
+- [Anti-frágil: Coisas que se beneficiam com o caos](https://a.co/d/901h9Dk) - Nassim Nicholas Taleb
+
 
 ### Movies worth watching
 
@@ -64,12 +65,12 @@ Oliver Stone
 - [AWS](https://aws.amazon.com/pt/blogs/aws-brasil/)
 - [Netflix](https://netflixtechblog.com/)
 - [Stripe](https://stripe.com/blog)
-- [Spotify](https://engineering.atspotify.com/)
 
-**Investment blogs**
+**Finance blogs**
 - [Financial Samurai](https://www.financialsamurai.com/)
-- [The College Investor](https://thecollegeinvestor.com/)
+- [Bits about Money](https://www.bitsaboutmoney.com/archive/)
 - [The Happy Saver](https://www.thehappysaver.com/blog)
+- [Monetary Mechanics](https://maroonmacro.substack.com/archive)
 
 ---
 
