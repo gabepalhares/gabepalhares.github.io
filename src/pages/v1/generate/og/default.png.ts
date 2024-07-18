@@ -9,8 +9,8 @@ const fontFile = await fetch(
 
 const fontData: ArrayBuffer = await fontFile.arrayBuffer();
 
-const height = 630;
-const width = 1200;
+const height = 400;
+const width = 800;
 
 export const GET: APIRoute = async () => {
   const html = toReactElement(`
@@ -49,7 +49,7 @@ export const GET: APIRoute = async () => {
     justify-content: center;
     padding: 20px 50px;
     margin: 0 42px;
-    font-size: 60px;
+    font-size: 40px;
     width: auto;
     max-width: 550px;
     text-align: center;
@@ -65,7 +65,7 @@ export const GET: APIRoute = async () => {
     justify-content: center;
     padding: 20px 50px;
     margin: 0 42px;
-    font-size: 60px;
+    font-size: 40px;
     width: auto;
     max-width: 550px;
     text-align: center;
