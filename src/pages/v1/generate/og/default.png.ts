@@ -57,7 +57,7 @@ export const GET: APIRoute = async () => {
     color: white;
     line-height: 1.4;
   ">
-    Welcome to my. Digital.Garden
+    Welcome to my. <br />Digital.Garden
   </div>
 </div>
   `);
