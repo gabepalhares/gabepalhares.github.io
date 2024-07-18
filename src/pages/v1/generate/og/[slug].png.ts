@@ -9,8 +9,8 @@ const fontFile = await fetch(
 );
 const fontData: ArrayBuffer = await fontFile.arrayBuffer();
 
-const height = 630;
-const width = 1200;
+const height = 400;
+const width = 800;
 
 const posts = await getCollection('blog');
 
@@ -24,24 +24,54 @@ export function getStaticPaths() {
 export const GET: APIRoute = async ({ params, props }) => {
   const title = props.title.trim() ?? 'Blogpost';
   const html = toReactElement(`
-<div style="display: flex;
-  flex-direction: column;
-  height: 100%; width: 100%; 
-  align-items: center; 
-  justify-content: center; 
-  letter-spacing: -.02em; 
-  font-weight: 700; 
-  background: white;">
+<div
+  style="
+    display: flex;
+    height: 100%;
+    width: 100%; 
+    align-items: center; 
+    justify-content: center; 
+    letter-spacing: -.02em; 
+    font-weight: 700; 
+    background: white;
+  ">
   
-<div style="display:flex;
-  align-items: center;
-  position: absolute;
-  left: 42px; top: 42px;">
-<span style="width: 24px; height: 24px; background: black;"></span>
- <span style="margin-left: 8px; font-size: 20px;">gabrielpalhares.dev</span>
+<div
+  style="
+    left: 42px;
+    top: 42px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+  ">
+<span
+  style="
+    width: 24px;
+    height: 24px;
+    background: black;
+  "
+  />
+ <span
+  style="
+    margin-left: 8px;
+    font-size: 20px;">
+    gabrielpalhares.dev
+  </span>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; padding: 20px 50px; margin: 0 42px; font-size: 40px; max-width: 550px; text-align: center; background-color: black; color: white; line-height: 1.4;">
+<div
+  style="
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 20px 50px;
+    margin: 0 42px;
+    font-size: 40px;
+    max-width: 550px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 1.4;">
     ${title}
   </div>
 </div>
