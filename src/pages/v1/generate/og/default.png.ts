@@ -40,7 +40,7 @@ export const GET: APIRoute = async () => {
     <span style="
       display: flex;
       margin-left: 8px;
-      font-size: 20px;
+      font-size: 28px;
     ">gabrielpalhares.dev</span>
   </div>
   <div style="
@@ -55,7 +55,7 @@ export const GET: APIRoute = async () => {
     text-align: center;
     background-color: black;
     color: white;
-    line-height: 1.4;
+    line-height: 3;
   ">
     welcome.to.my
   </div>
@@ -71,7 +71,7 @@ export const GET: APIRoute = async () => {
     text-align: center;
     background-color: black;
     color: white;
-    line-height: 1.4;
+    line-height: 3;
   ">
     digital.garden
   </div>
