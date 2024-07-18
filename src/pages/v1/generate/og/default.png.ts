@@ -33,14 +33,14 @@ export const GET: APIRoute = async () => {
   ">
     <span style="
       display: flex;
-      width: 24px;
-      height: 24px;
+      width: 30px;
+      height: 30px;
       background: black;
     "></span>
     <span style="
       display: flex;
       margin-left: 8px;
-      font-size: 28px;
+      font-size: 40px;
     ">gabrielpalhares.dev</span>
   </div>
   <div style="
@@ -49,7 +49,7 @@ export const GET: APIRoute = async () => {
     justify-content: center;
     padding: 20px 50px;
     margin: 0 42px;
-    font-size: 40px;
+    font-size: 60px;
     width: auto;
     max-width: 550px;
     text-align: center;
@@ -65,7 +65,7 @@ export const GET: APIRoute = async () => {
     justify-content: center;
     padding: 20px 50px;
     margin: 0 42px;
-    font-size: 40px;
+    font-size: 60px;
     width: auto;
     max-width: 550px;
     text-align: center;
