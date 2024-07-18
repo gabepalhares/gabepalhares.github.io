@@ -17,31 +17,69 @@ const posts = await getCollection('blog');
 export function getStaticPaths() {
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { title: post.data.title, description: post.data.description, imgURL: post.data.imgURL },
+    props: { title: post.data.title },
   }));
 }
 
 export const GET: APIRoute = async ({ params, props }) => {
   const title = props.title.trim() ?? 'Blogpost';
-  const description = props.description ?? null;
-  const imgURL = props.imgURL ?? 'https://github.com/minortypo.png';
   const html = toReactElement(`
-  <div style="background-color: white; display: flex; flex-direction: column; height: 100%; padding: 3rem; width: 100%">
-    <div style="display:flex; height: 100%; width: 100%; background-color: white; border: 6px solid black; border-radius: 0.5rem; padding: 2rem; filter: drop-shadow(6px 6px 0 rgb(0 0 0 / 1));">
-      <div style="display: flex; flex-direction: column; justify-content: space-between; width: 100%; filter: drop-shadow()">
-        <div style="display: flex; justify-content: space-between;">
-          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-            <p style="font-size: 48px;">Gabriel Palhares</p>
-            <p style="font-size: 38px;">${title}</p>
-          </div>
-          <img src="${encodeURIComponent(imgURL)}" width="200px" height="200px" style="border: 3px solid black; border-radius: 0.5rem;" />
-        </div>
-        <div style="display: flex;">
-          <p style="font-size: 24px;">${description}</p>
-        </div>
-      </div>
-    </div>
+<div
+  style={{
+    display: 'flex',
+    height: '100%',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    letterSpacing: '-.02em',
+    fontWeight: 700,
+    background: 'white',
+  }}
+>
+  <div
+    style={{
+      left: 42,
+      top: 42,
+      position: 'absolute',
+      display: 'flex',
+      alignItems: 'center',
+    }}
+  >
+    <span
+      style={{
+        width: 24,
+        height: 24,
+        background: 'black',
+      }}
+    />
+    <span
+      style={{
+        marginLeft: 8,
+        fontSize: 20,
+      }}
+    >
+      gabrielpalhares.dev
+    </span>
   </div>
+  <div
+    style={{
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'center',
+      padding: '20px 50px',
+      margin: '0 42px',
+      fontSize: 40,
+      width: 'auto',
+      maxWidth: 550,
+      textAlign: 'center',
+      backgroundColor: 'black',
+      color: 'white',
+      lineHeight: 1.4,
+    }}
+  >
+    ${title}
+  </div>
+</div>
   `);
 
   const svg = await satori(html, {
