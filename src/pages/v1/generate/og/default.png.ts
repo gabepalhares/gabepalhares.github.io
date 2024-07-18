@@ -57,7 +57,23 @@ export const GET: APIRoute = async () => {
     color: white;
     line-height: 1.4;
   ">
-    Welcome to my. <br />Digital.Garden
+    welcome.to.my
+  </div>
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 50px;
+    margin: 0 42px;
+    font-size: 40px;
+    width: auto;
+    max-width: 550px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 1.4;
+  ">
+    digital.garden
   </div>
 </div>
   `);
