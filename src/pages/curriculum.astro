@@ -3,8 +3,8 @@ import Layout from '@layouts/Default.astro';
 import { Button } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
 import { Pill } from '@eliancodes/brutal-ui';
-import pdfenus from 'src/components/pdf/cv - english-us.pdf';
-import pdfptbr from 'src/components/pdf/cv - portugues-br.pdf';
+import pdfen from 'src/components/pdf/gabriel-palhares-cv-english.pdf';
+import pdfpt from 'src/components/pdf/gabriel-palhares-cv-portugues.pdf';
 
 const skills = [
   { name: 'Typescript', url: 'https://www.typescriptlang.org/' },
@@ -43,12 +43,12 @@ const languages = [
     <div class="flex gap-4 justify-center mb-4">
       <Button
         target={'_blank'}
-        href={pdfenus}>
+        href={pdfen}>
           CV Download en-us &darr;
       </Button>  
       <Button
         target={'_blank'}
-        href={pdfptbr}>
+        href={pdfpt}>
           CV Download pt-br &darr;
       </Button>
     </div>
@@ -76,28 +76,30 @@ const languages = [
           <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
             Education
           </h2>
-            <ol>
-                <li>
-                    <p class='poppins mb-3'>
-                    <strong>• Bachelor's degree - Law</strong>
-                    <br />
-                    Faculdade Asa de Brumadinho / 2019 - 2023
-                    </p>
-                </li>
-                <li>
-                    <p class='poppins mb-3'>
-                    <strong>• Bachelor in Tech - Analysis and Systems Development</strong>
-                    <br />
-                    PUC Minas / 2022 - 2024
-                    </p>
-                </li>
-                <li>
-                    <p class='poppins'>
-                    <strong>• University extension program - Modern Software Engineering</strong>
-                    <br />
-                    UFMG / 2024 - 2024
-                    </p>
-                </li>
+            <ol class="poppins">
+              <li>
+                <p><strong>Bachelor - Analysis and Systems Development</strong></p>
+                <p></p><strong>PUC Minas</strong></p>
+                <p class="block">
+                  <time datetime="2024">2024</time> - <time datetime="2025">2025</time>
+                </p>
+              </li>  
+              <hr class="border-t-2 border-black my-4">
+             <li>
+                <p><strong>Extension program - Modern Software Engineering</strong>
+                <p><strong>UFMG</strong></p>
+                <p class="block">
+                  <time datetime="2024">2024</time> - <time datetime="2025">2025</time>
+                </p>
+              </li>
+              <hr class="border-t-2 border-black my-4">
+              <li>
+                <p><strong>Bachelor - Law</strong></p>
+                <p><strong>Faculdade Asa de Brumadinho</strong></p>
+                <p class="block">
+                  <time datetime="2019">2019</time> - <time datetime="2023">2023</time>
+                </p>
+              </li>
             </ol>
         </Card>
     </div>
@@ -131,65 +133,96 @@ const languages = [
           <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
             Courses
           </h2>
-          <ol>
-            <li>
-                <p class='poppins mb-3'>
-                <strong>JavaScript Algorithms and Data Structures Masterclass</strong>
-                <br />
-                Udemy - Colt Steele
-                </p>
-            </li>
-            <li>
-              <p class='poppins mb-3'>
-                <strong>The Last Algorithms Course You'll Need</strong>
-                <br />
-                Frontend Masters - ThePrimeagen
-                </p>
-            </li>
-            <li>
-              <p class='poppins mb-3'>
-              <strong>Startup Creation: How to Develop Innovative Businesses</strong>
-              <br />
-              USP - University of São Paulo
+          <ol class="poppins">
+            <li class='mb-3'>
+              <p>
+                <strong>Ignite - React.js</strong>
               </p>
+              <p>Rocketseat</p>
             </li>
-            <li>
-              <p class='poppins mb-3'>
-              <strong>Cs50 - Introduction to Computer Science</strong>
-              <br />
-              Harvard University
-              </p>
-            </li>
-            <li>
-              <p class='poppins mb-3'>
+            <li class='mb-3'>
+              <p>
               <strong>Ignite - Node.js</strong>
-              <br />
-              Rocketseat
               </p>
+              <p>Rocketseat</p>
+            </li>
+            <li class='mb-3'>
+              <p>
+                <strong>The Last Algorithms Course You'll Need</strong>
+              <p/>
+                <p>Frontend Masters - ThePrimeagen</p>
+            </li>
+            <li class='mb-3'>
+              <p>
+                <strong>JavaScript Algorithms and Data Structures Masterclass</strong>
+              </p>
+              <p>Udemy - Colt Steele</p>
+          </li>
+            <li class='mb-3'>
+              <p>
+                <strong>Cs50 - Introduction to Computer Science</strong>
+              </p>
+              <p>Harvard University</p>
             </li>
             <li>
-              <p class='poppins'>
-              <strong>Ignite - React.js</strong>
-              <br />
-              Rocketseat
+              <p>
+                <strong>Startup Creation: How to Develop Innovative Businesses</strong>
               </p>
+              <p>USP - University of São Paulo</p>
             </li>
           </ol>
         </Card>
     </div>
     <div class='col-span-4 md:col-span-2'>
+      <Card>
+        <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
+          Work
+        </h2>
+        <ol class="poppins">
+          <li>
+              <p><strong>Full-stack Developer</strong></p>
+              <p><strong>Career transition</strong></p>
+              <p class="block mb-3">
+                <time datetime="2024-01" class="block">January 2024 - Present</time>
+              </p>
+              <p>
+                <span class="font-bold">Development</span> of software and web systems, freelance projects, study, and personal projects.
+              </p>
+          </li>
+          <hr class="border-t-2 border-black my-4">
+          <li>
+            <p><strong>Judicial Assistant</strong></p>
+            <p><strong>TJMG - Court of Justice of Minas Gerais</strong></p>
+            <p class="block mb-3">
+              <time datetime="2022-09">September 2022</time> - <time datetime="2023-12">December 2023</time>
+            </p>
+            <p>
+              <span class="font-bold">Processing</span> judicial cases through the Electronic Judicial Process system (PJe), performing procedural acts related to Family, Juvenile, Civil, and Criminal courts.
+            </p>
+        </li>
+        <hr class="border-t-2 border-black my-4">
+          <li>
+            <p><strong>Administrative Manager</strong></p>
+            <p><strong>R&R Transportes</strong></p>
+            <p class="block mb-3">
+              <time datetime="2020-08">August 2020</time> - <time datetime="2022-08">August 2022</time>
+            </p>
+            <p>
+              <span class="font-bold">Administrative,</span> financial, and organizational management of the company. Data control using spreadsheets and analysis in Excel, as well as data management and visualization with Power BI.
+            </p>
+        </li>
+  </div>
+    <div class='col-span-4 md:col-span-2'>
         <Card>
           <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
             Languages
           </h2>
-          <ul class='flex gap-4 flex-wrap'>
+          <ul class='flex gap-4 flex-wrap mb-4'>
             {
               languages.map((item) => (
                 <li>
                   <Pill>
-                    <a
-                      class='sanchez'
-                    >
+                    <a class='sanchez'>
                       {item.name}
                     </a>
                   </Pill>
@@ -197,18 +230,24 @@ const languages = [
               ))
             }
           </ul>
+          <section class="poppins">
+            <p class="mb-3"><strong>I was born in Brazil,</strong> so my native language is Brazilian Portuguese. Since childhood, I've always had a strong interest in history and geography. I remember one of my hobbies was playing with a world globe we had at school, which one day sparked my curiosity and desire to learn other languages.</p>
+            <p class="mb-3"><strong>During my teenage years,</strong> I had the opportunity and privilege to study English as a Second Language (ESL). From that point on, I started consuming all sorts of content in English: books, movies, series, music, and over time, I became very proficient in the language.</p>
+            <p><strong>Recently,</strong> I've developed a strong passion for Latin American countries, inspiring me to learn Spanish. I look forward to traveling and exploring Brazil's neighbors, so I hope to become fluent soon. This will allow me to communicate in places such as Argentina, Chile, Uruguay, and even Spain someday.</p>
+          </section>
     </div>
     <div class='col-span-4 md:col-span-2'>
         <Card>
           <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
             Where am I?
           </h2>
-            <p class='poppins mb-3'>
-              <strong>• Belo Horizonte, Minas Gerais, Brazil</strong>
-              <br />
-              Brazil's vibrant capital of Minas Gerais, known for it's lively culture, rich history, and irresistible 'pão de queijo' passion.
-              I'm available for remote and/or hybrid work.
-            </p>
+            <section class='poppins'>
+              <p class="mb-3">
+                <strong>Belo Horizonte, Minas Gerais, Brazil</strong>
+              </p>
+              <p class="mb-3">The vibrant capital of Minas Gerais, known for it's lively culture, rich history, and irresistible 'pão de queijo' passion.</p>
+              <p>I am available for remote work, or hybrid work in Belo Horizonte area.</p>
+            </section>
     </div>
     </section>
   </main>
