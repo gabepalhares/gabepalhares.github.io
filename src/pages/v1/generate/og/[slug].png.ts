@@ -24,7 +24,7 @@ export function getStaticPaths() {
 export const GET: APIRoute = async ({ params, props }) => {
   const title = props.title.trim() ?? 'Blogpost';
   const description = props.description ?? null;
-  const imgURL = props.imgURL ?? "https://github.com/minortypo.png";
+  const imgURL = props.imgURL ?? 'https://github.com/minortypo.png';
   const html = toReactElement(`
   <div style="background-color: white; display: flex; flex-direction: column; height: 100%; padding: 3rem; width: 100%">
     <div style="display:flex; height: 100%; width: 100%; background-color: white; border: 6px solid black; border-radius: 0.5rem; padding: 2rem; filter: drop-shadow(6px 6px 0 rgb(0 0 0 / 1));">
@@ -34,7 +34,7 @@ export const GET: APIRoute = async ({ params, props }) => {
             <p style="font-size: 48px;">Gabriel Palhares</p>
             <p style="font-size: 38px;">${title}</p>
           </div>
-          <img src=${imgURL} width="200px" height="200px" style="border: 3px solid black; border-radius: 0.5rem;" />
+          <img src="${encodeURIComponent(imgURL)}" width="200px" height="200px" style="border: 3px solid black; border-radius: 0.5rem;" />
         </div>
         <div style="display: flex;">
           <p style="font-size: 24px;">${description}</p>
