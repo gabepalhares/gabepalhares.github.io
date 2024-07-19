@@ -17,6 +17,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.4.1",
     "@astrojs/rss": "^4.0.2",
     "@astrojs/sitemap": "^3.0.4",
     "@eliancodes/brutal-ui": "^0.2.3",
@@ -25,7 +26,6 @@
     "astro-font": "^0.0.72",
     "satori": "^0.5.0",
     "satori-html": "^0.3.2",
-    "@astrojs/check": "^0.4.1",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
@@ -34,12 +34,15 @@
     "@resvg/resvg-js": "^2.6.0",
     "@typescript-eslint/parser": "^6.15.0",
     "@unocss/reset": "^0.57.7",
+    "autoprefixer": "^10.4.19",
     "eslint": "^8.56.0",
     "eslint-plugin-astro": "^0.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
+    "postcss": "^8.4.39",
     "prettier": "^3.1.1",
     "prettier-plugin-astro": "^0.12.2",
     "sharp": "^0.32.6",
+    "tailwindcss": "^3.4.6",
     "unocss": "^0.57.7"
   }
 }
