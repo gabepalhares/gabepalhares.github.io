@@ -1,3 +1,3 @@
-# Gabriel Palhares
+## Gabriel Palhares 
 
-Welcome.
+This is my personal webpage and blog.
