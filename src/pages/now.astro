@@ -1,0 +1,88 @@
+---
+import Layout from '@layouts/Default.astro';
+import { Card } from '@eliancodes/brutal-ui';
+---
+
+<Layout
+  title='Now'
+  pageTitle='Now page'
+  description="What I'm doing now"
+>
+<main class='bg-teal p-6'>
+<section id='cards' class='grid md:grid-cols-8 gap-6 mt-2'>
+<div class='col-span-4 md:col-span-3'>
+  <Card>
+    <div class='flex flex-col justify-between items-start gap-4'>
+      <h2 class='outfit mt-2 text-2xl md:text-4xl lg:text-6xl'>
+        What am I doing now?
+      </h2>
+      <section class="poppins">
+        <p class="mb-3">
+          <strong>This is a <a href="https://nownownow.com/" target="_blank" class="underline">now</a> page,</strong> inspired by Derek Sivers and the <a href="https://sive.rs/nowff" target="_blank" class="underline">now page movement</a>.
+        </p>
+        <p class="mb-3">
+          <strong>I love the concept of a now page.</strong> It helps a lot and it <strong>just works</strong>. A now page allows me to share what I'm currently focused on without the need for real-time updates. It's the pure essence of asynchronous communication.
+        </p>
+        <p class="mb-3">
+          <strong>For me,</strong> it's also a helpful reminder when I'm feeling unfocused. A now page serves as a public declaration of my priorities and a commitment to stay on track. I'll probably update this page once a month to reflect any changes in my focus or goals.
+        </p>
+        <p class="mb-3">
+          <strong>If you're curious</strong> and want to talk about anything, just send me an email or reach me at <a href="https://x.com/minortypo" target="_blank" class="underline">X</a>. I'll enjoy chatting with you.
+        </p>
+        <p>
+          This page was last updated on 2024-07-23 at 10:31 AM.
+        </p>
+      </section>
+    </div>
+  </Card>
+</div>
+<div class='col-span-4 md:col-span-3 lg:col-span-2'>
+  <Card>
+    <h2 class='text-2xl md:text-4xl lg:text-6xl mb-4 dm-serif'>
+      Work
+    </h2>
+    <section class="poppins">
+      <p class='mb-3'>
+        <strong>I'm currently working</strong> as an entrepreneur in the transportation and rental industry, with a company focused on trucks and heavy-duty cargo vehicles.
+      </p>
+      <p class='mb-3'>
+        <strong>My current goal</strong> is to start working as a Software Engineer, gain experience, and excel in the industry by solving real-world problems.
+      </p>
+      <p class='mb-3 font-bold'>
+        Right now, I'm...
+      </p>
+        <li class='mb-2'>Building <a href="https://github.com/minortypo/garden" target="_blank" class="underline font-bold">g.arden</a>, my own Zettelkasten project using Docusaurus.</li>
+        <li class='mb-2'>Reading <a href="https://a.co/d/indxWUy" target="_blank" class="underline font-bold">SICP</a> - Structure and Interpretation of Computer Programs in the English edition.</li>
+        <li class='mb-2'>Learning Golang.</li>
+        <li class='mb-2'>Finishing the course CS50 from Harvard.</li>
+        <li>In the final year of my Analysis and Systems Development degree.</li>
+    </section>
+  </Card>
+</div>
+<div class='col-span-4 md:col-span-3 lg:col-span-2'>
+  <Card>
+    <h2 class='text-2xl md:text-4xl pl:text-6xl mb-4 dm-serif'>
+      Personal
+    </h2>
+    <section class="poppins">
+      <p class='mb-3'>
+        <strong>Since childhood,</strong> I’ve been very active, enjoying various sports and competitions. I used to play outside with neighbors until night and, weirdly, was also a bit of a nerd, excelling in my studies and having exams that everyone in the class wanted to copy.
+      </p>
+      <p class='mb-3'>
+        <strong>Today,</strong> sports remain essential to me. I run, lift weights, mountain bike, play football occasionally, and plan to start playing tennis soon. Unironically, I’m still a <strong>nerd at heart</strong>, enjoying sci-fi, computer games, and exploring topics in biology, astronomy, and computer science.
+      </p>
+        <p class='mb-3 font-bold'>
+        Right now, I'm...
+      </p>
+        <li class='mb-2'>Training to run a 21k half marathon in late 2024.</li>
+        <li class='mb-2'>Focused on gaining weight and being healthy, going to the gym 4-5 times a week.</li>
+        <li class='mb-2'>Reading <a href="https://a.co/d/7wWSLjv" target="_blank" class="underline font-bold">Antifragile</a> in the Portuguese edition.</li>
+        <li class='mb-2'>Playing Outer Wilds.</li>
+        <li class='mb-2'>Saving money to buy an equatorial telescope.</li>
+        <li>Learning and practicing Spanish at least twice a week.</li>
+    </section>
+  </Card>
+</div>
+</section>
+</main>
+</Layout>
