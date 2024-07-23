@@ -6,6 +6,7 @@ interface Props {
 const navigationItems = [
   { name: 'Home', url: '/' },
   { name: 'Blog', url: '/blog/'},
+  { name: 'Now', url: '/now/'},
   { name: 'cv', url: '/curriculum/' },
 ];
 
@@ -72,8 +73,11 @@ const { pageTitle } = Astro.props;
       <li class="pr-4">
         <a href="/blog">Blog</a>
       </li>
+      <li class="pr-4">
+        <a href="/now">Now</a>
+      </li>
       <li>
-        <a href="/curriculum">cv</a>
+        <a href="/curriculum">Cv</a>
       </li>
     </ul>
   </nav>
