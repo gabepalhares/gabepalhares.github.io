@@ -34,7 +34,7 @@ When it comes to riding patterns, there’s something important to note: mountai
 
 Riding a hardtail means additional challenges because navigating through trails is a bit more demanding, as you only have your arms and the front suspension of the bike. However, with a full-suspension bike, you can avoid some of those struggles, feeling more comfortable and confident when crossing difficult trails and rough terrain.
 
-This means that if you’re on a difficult trail with a hardtail, you always have to look for better and cleaner trail lines, as it fails to provide the same level of confidence and smooth ride as a full suspension bike. It’s common to see people give up, get off the bike, and push it because they think the obstacle is too big.
+This means that if you’re on a difficult trail with a hardtail, you always have to look for better and cleaner trail lines, as it fails to provide the same level of confidence and smooth ride as a full suspension bike. It’s common to see people give up, get off the bike, and push it because they think the obstacle is too big. This doesn't happen with a full-suspension bike because you can just go through and run over everything. Literally.
 
 Evolving as a rider with a hardtail bike requires a lot more effort than it does for someone with a full-suspension bike. So, what then becomes the bottleneck of riding a hardtail bike? If you're not giving your best, you tend to search for **comfort** in the trails, avoiding rough places and obstacles. And here is where I bring coding into the context.
 
