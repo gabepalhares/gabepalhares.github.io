@@ -13,7 +13,7 @@ const posts = await getCollection('blog').then((collection) =>
   description='On this page, you can find all the posts I have written.'
   pageTitle='Blog'
 >
-  <main class='bg-green p-6'>
+  <main class='bg-green p-6 flex-grow'>
     <BlogList posts={posts} />
   </main>
 </Layout>
