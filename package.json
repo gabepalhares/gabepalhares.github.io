@@ -30,7 +30,9 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.41",
+    "@iconify-json/mdi": "^1.1.67",
     "@iconify-json/uil": "^1.1.8",
+    "@iconify/tailwind": "^1.1.1",
     "@resvg/resvg-js": "^2.6.0",
     "@typescript-eslint/parser": "^6.15.0",
     "@unocss/reset": "^0.57.7",
