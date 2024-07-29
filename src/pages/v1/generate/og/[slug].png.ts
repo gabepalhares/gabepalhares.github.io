@@ -17,13 +17,12 @@ const posts = await getCollection('blog');
 export function getStaticPaths() {
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { title: post.data.title, description: post.data.description },
+    props: { title: post.data.title },
   }));
 }
 
 export const GET: APIRoute = async ({ params, props }) => {
   const title = props.title.trim() ?? 'Blogpost';
-  const description = props.description ?? null;
   const html = toReactElement(`
    <div style="
   display: flex;
@@ -70,21 +69,6 @@ export const GET: APIRoute = async ({ params, props }) => {
   ">
     <p>${title}</p>
   </div>
-  <div style="
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px 50px;
-    margin: 0 42px;
-    font-size: 40px;
-    width: auto;
-    max-width: 550px;
-    text-align: center;
-    background-color: black;
-    color: white;
-    line-height: 3;
-  ">
-    <p>${description}</p>
   </div>
 </div>
   `);
