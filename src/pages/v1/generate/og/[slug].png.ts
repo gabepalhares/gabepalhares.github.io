@@ -17,32 +17,59 @@ const posts = await getCollection('blog');
 export function getStaticPaths() {
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { imgUrl: post.data.imgUrl },
+    props: { title: post.data.title },
   }));
 }
 
 export const GET: APIRoute = async ({ props }) => {
-  const imgUrl = props.imgUrl.trim() ?? 'Blogpost';
+  const title = props.title.trim() ?? 'Blogpost';
   const html = toReactElement(`
+   <div style="
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -.02em;
+  font-weight: 700;
+  background: white;
+">
   <div style="
     display: flex;
-    height: ${height}px;
-    width: ${width}px;
+    left: 42px;
+    top: 42px;
+    position: absolute;
     align-items: center;
-    justify-content: center;
-    background: white;
-    box-sizing: border-box;
   ">
-    <img 
-      src="${imgUrl}" 
-      alt="Dynamic Image" 
-      style="
-        max-width: 100%; 
-        height: auto; 
-        border-radius: 8px;
-      " 
-    />
+    <span style="
+      display: flex;
+      width: 30px;
+      height: 30px;
+      background: black;
+    "></span>
+    <span style="
+      display: flex;
+      margin-left: 8px;
+      font-size: 40px;
+    ">gabrielpalhares.dev</span>
   </div>
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 50px;
+    margin: 0 42px;
+    font-size: 40px;
+    width: auto;
+    max-width: 550px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 3;
+  ">
+    ${title}
+  </div>
+</div>
   `);
 
   const svg = await satori(html, {
