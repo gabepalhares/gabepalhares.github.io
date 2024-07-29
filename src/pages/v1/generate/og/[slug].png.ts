@@ -22,7 +22,7 @@ export function getStaticPaths() {
 }
 
 export const GET: APIRoute = async ({ props }) => {
-  const imgUrl = props.title.trim() ?? 'Blogpost';
+  const imgUrl = props.imgUrl.trim() ?? 'Blogpost';
   const html = toReactElement(`
   <div style="
     display: flex;
