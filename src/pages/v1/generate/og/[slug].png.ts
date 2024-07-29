@@ -57,21 +57,18 @@ export const GET: APIRoute = async ({ params, props }) => {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     padding: 20px 50px;
     margin: 0 42px;
     font-size: 40px;
     width: auto;
     max-width: 550px;
-    text-align: center;
     background-color: 'black';
     color: white;
     line-height: 1.4;
   ">
-    <p style="
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ">${title}</p>
+    ${title}
   </div>
   </div>
   `);
