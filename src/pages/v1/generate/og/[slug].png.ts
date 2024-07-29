@@ -70,7 +70,6 @@ export const GET: APIRoute = async ({ params, props }) => {
     <p style="display: flex">${title}</p>
   </div>
   </div>
-</div>
   `);
 
   const svg = await satori(html, {
