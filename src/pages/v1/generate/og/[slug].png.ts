@@ -39,6 +39,7 @@ export const GET: APIRoute = async ({ params, props }) => {
     left: 42px;
     top: 42px;
     position: absolute;
+    display: 'flex',
     align-items: center;
   ">
     <span style="
@@ -62,12 +63,12 @@ export const GET: APIRoute = async ({ params, props }) => {
     font-size: 40px;
     width: auto;
     max-width: 550px;
-    text-align: center;
-    background-color: black;
+    text-align: 'center';
+    background-color: 'black';
     color: white;
     line-height: 3;
   ">
-    <p>${title}</p>
+    <p style="display: flex">${title}</p>
   </div>
   </div>
 </div>
