@@ -39,7 +39,7 @@ export const GET: APIRoute = async ({ params, props }) => {
     left: 42px;
     top: 42px;
     position: absolute;
-    display: flex,
+    display: flex;
     align-items: center;
   ">
     <span style="
