@@ -25,12 +25,14 @@ export const GET: APIRoute = async () => {
   background: white;
 ">
   <div style="
+    display: flex;
     left: 42px;
     top: 42px;
     position: absolute;
     align-items: center;
   ">
     <span style="
+      display: flex;
       width: 24px;
       height: 24px;
       background: black;
