@@ -21,7 +21,7 @@ export function getStaticPaths() {
   }));
 }
 
-export const GET: APIRoute = async ({ props }) => {
+export const GET: APIRoute = async ({ params, props }) => {
   const title = props.title.trim() ?? 'Blogpost';
   const html = toReactElement(`
    <div style="
@@ -67,7 +67,7 @@ export const GET: APIRoute = async ({ props }) => {
     color: white;
     line-height: 3;
   ">
-    ${title}
+    <p>${title}</p>
   </div>
 </div>
   `);
