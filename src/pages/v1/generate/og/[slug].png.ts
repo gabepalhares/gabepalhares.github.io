@@ -21,7 +21,7 @@ export function getStaticPaths() {
   }));
 }
 
-export const GET: APIRoute = async ({ params, props }) => {
+export const GET: APIRoute = async ({ props }) => {
   const title = props.title.trim() ?? 'Blogpost';
   const html = toReactElement(`
   <div style="
