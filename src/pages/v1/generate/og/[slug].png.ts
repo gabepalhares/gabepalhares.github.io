@@ -24,55 +24,66 @@ export function getStaticPaths() {
 export const GET: APIRoute = async ({ params, props }) => {
   const title = props.title.trim() ?? 'Blogpost';
   const html = toReactElement(`
-<div
-  style="
+  <div style="
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -.02em;
+  font-weight: 700;
+  background: white;
+">
+  <div style="
     display: flex;
-    height: 100%;
-    width: 100%; 
-    align-items: center; 
-    justify-content: center; 
-    letter-spacing: -.02em; 
-    font-weight: 700; 
-    background: white;
-  ">
-  
-<div
-  style="
     left: 42px;
     top: 42px;
     position: absolute;
-    display: flex;
     align-items: center;
   ">
-<span
-  style="
-    width: 24px;
-    height: 24px;
-    background: black;
-  "
-  />
- <span
-  style="
-    margin-left: 8px;
-    font-size: 20px;">
-    gabrielpalhares.dev
-  </span>
-</div>
-
-<div
-  style="
+    <span style="
+      display: flex;
+      width: 30px;
+      height: 30px;
+      background: black;
+    "></span>
+    <span style="
+      display: flex;
+      margin-left: 8px;
+      font-size: 40px;
+    ">gabrielpalhares.dev</span>
+  </div>
+  <div style="
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
     padding: 20px 50px;
     margin: 0 42px;
     font-size: 40px;
+    width: auto;
     max-width: 550px;
     text-align: center;
     background-color: black;
     color: white;
-    line-height: 1.4;">
-    ${title}
+    line-height: 3;
+  ">
+    Welcome.to.my
+  </div>
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 50px;
+    margin: 0 42px;
+    font-size: 40px;
+    width: auto;
+    max-width: 550px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 3;
+  ">
+  ${title}
   </div>
 </div>
   `);
