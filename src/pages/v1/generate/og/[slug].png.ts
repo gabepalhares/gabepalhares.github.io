@@ -55,13 +55,14 @@ export const GET: APIRoute = async ({ params, props }) => {
   </div>
   <div style="
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 20px 50px;
     margin: 0 42px;
     font-size: 40px;
     width: auto;
-    max-width: 550px;
+    max-width: 650px;
     background-color: 'black';
     color: white;
     line-height: 1.4;
