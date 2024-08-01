@@ -1,5 +1,5 @@
 ---
-title: Woovi Bets on JavaScript, Should You?
+title: Woovi Bets on JavaScript
 pubDate: 2024-01-03 09:30
 author: "Gabriel Palhares"
 tags:
