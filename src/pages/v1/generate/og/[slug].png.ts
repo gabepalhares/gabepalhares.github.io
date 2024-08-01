@@ -60,14 +60,14 @@ export const GET: APIRoute = async ({ params, props }) => {
     justify-content: center;
     padding: 1.25rem 3rem;
     margin: 0 2.5rem;
-    font-size: 2rem;
+    font-size: 2.25rem;
     width: auto;
     max-width: 650px;
     background-color: 'black';
     color: white;
     line-height: 1.4;
   ">
-    <p style="display: flex; flex-direction: row; flex-wrap: wrap;">${title}</p>
+    <p>${title}</p>
   </div>
   </div>
   `);
