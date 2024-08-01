@@ -1,5 +1,5 @@
 ---
-title: Your Tech Career Should be Like a Motorsport
+title: Tech Careers Like Motorsport
 author: Gabriel Palhares
 pubDate: 2024-01-17 08:00
 tags:

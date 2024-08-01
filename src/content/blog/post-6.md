@@ -1,5 +1,5 @@
 ---
-title: 'Mountain bikes and Code: Key Decisions to Senior'
+title: Mountain bikes and Code
 author: Gabriel Palhares
 pubDate: 2024-07-22 23:00
 tags:

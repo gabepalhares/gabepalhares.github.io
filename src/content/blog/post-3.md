@@ -1,5 +1,5 @@
 ---
-title: Rabbit Holes and When to Avoid Them
+title: Rabbit Holes
 description: A career in technology is full of rabbit holes; understand what they are and how to deal with them.
 pubDate: 2024-01-11 08:40
 author: Gabriel Palhares

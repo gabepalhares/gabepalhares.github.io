@@ -1,5 +1,5 @@
 ---
-title: Why I Personally Decided to Bet on JavaScript
+title: Why Bet on JavaScript
 pubDate: 2024-01-05 09:30
 author: "Gabriel Palhares"
 tags:
