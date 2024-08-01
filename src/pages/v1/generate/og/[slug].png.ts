@@ -55,7 +55,7 @@ export const GET: APIRoute = async ({ params, props }) => {
   </div>
   <div style="
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
     padding: 20px 50px;
     margin: 0 42px;
