@@ -35,7 +35,7 @@ In both motorsport and tech careers, unexpected challenges arise. The ability to
 
 Motorsport teams exemplify the power of collaboration, and the same holds true in the world of computer science. Have you ever heard about [Learn In Public?](https://www.swyx.io/learn-in-public) The logic behind Learn In Public relies into the open-source culture, and its motto is to learn faster than privately learning. Although Swyx (Shawn Wang) is not the founder of the idea, he’s one of the most popular advocates of it. He describes LIP as follows:
 
-> **You share what you learn, as you learn it. You open-source your knowledge. You build a public record of your interests and progress, and along the way, you attract a community of mentors, peers, and supporters. They will help you learn faster than you ever could on your own. Your network could be vast, consisting of experts in every field, unconstrained by your org chart.” - The Coding Career Handbook.**
+**You share what you learn, as you learn it. You open-source your knowledge. You build a public record of your interests and progress, and along the way, you attract a community of mentors, peers, and supporters. They will help you learn faster than you ever could on your own. Your network could be vast, consisting of experts in every field, unconstrained by your org chart.” - The Coding Career Handbook.**
 
 Seek guidance, learn from peers, and foster a sense of community within your learning process. Collaborative efforts can lead to accelerated progress and the discovery of innovative solutions to complex problems. It’s your journey, but with the knowledge shared in community, you can drive further.
 
