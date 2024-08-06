@@ -6,10 +6,11 @@ tags:
   - Webdev
   - Mtb
   - Career
-description: I highlighted key points from Sibelius' recent talk, hosted by Jessica Felix, and connected them to my passions and aspects of evolving into a Senior engineer.
+description: I highlighted key points from Sibelius' recent talk with Jess Felix and connected them to my passions.
 imgUrl: '../../assets/anastasia-shuraeva.jpg'
 layout: "../../layouts/BlogPost.astro"
 ---
+
 # Mountain bikes and Code: Key Decisions to Senior
 
 ![Blog folder](../../assets/anastasia-shuraeva.jpg)
