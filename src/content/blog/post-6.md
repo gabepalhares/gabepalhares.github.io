@@ -46,13 +46,13 @@ A few days ago, there was a <a href="https://x.com/jessilyneh/status/17477320172
 
 The answer was **perfect** for me. He said:
 
-> **“To learn faster, it's essential to focus on active behaviors. If you want to progress from mid-level to senior, it's beneficial to look at the seniors you admire, or those on your team, and observe everything they do.**
+**“To learn faster, it's essential to focus on active behaviors. If you want to progress from mid-level to senior, it's beneficial to look at the seniors you admire, or those on your team, and observe everything they do.**
 
-> **Why can't you do their job? What do they do that you don't? Are they better writers? More organized? More disciplined? Do they manage teams and the product? Do they interact with clients? Is their communication better? You need to understand everything they are doing and focus on addressing the reasons why you can't achieve that, thus allowing yourself to evolve.**
+**Why can't you do their job? What do they do that you don't? Are they better writers? More organized? More disciplined? Do they manage teams and the product? Do they interact with clients? Is their communication better? You need to understand everything they are doing and focus on addressing the reasons why you can't achieve that, thus allowing yourself to evolve.**
 
-> **First, seek more responsibilities, try to solve more complex problems, tackle tougher bugs, and become one of the team's go-to experts. Act like a senior first, and then you'll be considered a senior. Only then will you earn the benefits.”**
+**First, seek more responsibilities, try to solve more complex problems, tackle tougher bugs, and become one of the team's go-to experts. Act like a senior first, and then you'll be considered a senior. Only then will you earn the benefits.”**
 
-This got me thinking about how this is undoubtedly a scenario of someone struggling and making their way through adversity — putting in effort, consistency, and avoiding comfort. Just like a rider who doesn’t choose comfortable lines and trails to explore, even on a hardtail bike.
+ This got me thinking about how this is undoubtedly a scenario of someone struggling and making their way through adversity — putting in effort, consistency, and avoiding comfort. Just like a rider who doesn’t choose comfortable lines and trails to explore, even on a hardtail bike.
 
 In this way, I believe we can conclude that we have a specific bottleneck in common — the one that blocks a developer from becoming a senior is the same as what prevents a hardtail rider from evolving: **comfort**.
 
