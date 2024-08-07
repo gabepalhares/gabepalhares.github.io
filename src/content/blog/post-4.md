@@ -5,7 +5,6 @@ pubDate: 2024-01-17 08:00
 tags:
   - Productivity
   - Career
-  - Programming
 description: I explained why I thought, "My career should also be like that!" while watching Formula 1.
 imgUrl: '../../assets/maria-geller.png'
 layout: "../../layouts/BlogPost.astro"
