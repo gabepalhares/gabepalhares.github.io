@@ -25,13 +25,24 @@ layout: "../../layouts/BlogPost.astro"
 
 ### Books
 
-- [Structure and Interpretation of Computer Programs](https://a.co/d/4xWTqFD) - MIT
-- [Uma breve história do tempo](ttps://a.co/d/hHApi0I) - Stephen Hawking
-- [O fim da eternidade](https://a.co/d/g69hvrY) - Isaac Asimov
-- [A arte da Guerra](https://a.co/d/1oyHG9A) - Sun Tzu
-- [A lógica do Cisne Negro](https://a.co/d/60rinDK) - Nassim Nicholas Taleb
-- [Anti-frágil: Coisas que se beneficiam com o caos](https://a.co/d/901h9Dk) - Nassim Nicholas Taleb
+- [O fim da eternidade](https://www.goodreads.com/book/show/509784.The_End_of_Eternity) - Isaac Asimov
+- [Uma breve história do tempo](https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time) - Stephen Hawking
+- [A arte da Guerra](https://www.goodreads.com/book/show/10534.The_Art_of_War) - Sun Tzu
+- [A lógica do Cisne Negro](https://www.goodreads.com/book/show/5113684-a-l-gica-do-cisne-negro) - Nassim Nicholas Taleb
+- [Anti-frágil: Coisas que se beneficiam com o caos](https://www.goodreads.com/book/show/13530973-antifragile) - Nassim Nicholas Taleb
 
+### CS Books
+
+- [Introduction to Algorithms](https://www.goodreads.com/book/show/108986.Introduction_to_Algorithms) - Thomas H. Cormen
+- [The pragmatic programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) - Andrew Hunt, Dave Thomas
+- [JavaScript: The Good Parts](https://www.goodreads.com/book/show/58699495-javascript) - Douglas Crockford
+- [Effective TypeScript](https://www.goodreads.com/book/show/48570456-effective-typescript) - Dan Vanderkam
+- [SICP](https://www.goodreads.com/book/show/43713.Structure_and_Interpretation_of_Computer_Programs) - Harold Abelson, Gerald J. Sussman
+- [Crafting Interpreters](https://www.goodreads.com/book/show/58661468-crafting-interpreters) - Robert Nystrom
+- [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications) - Martin Kleppmann
+- [The Mythical Man-Month](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - Frederick P. Brooks Jr.
+- [Fundamentals of Software Architecture](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture) - Neal Ford, Mark Richards
+- [Software Architecture: The Hard Parts](https://www.goodreads.com/book/show/58153482-software-architecture) - Neal Ford, Mark Richards, Pramod J. S.
 
 ### Movies worth watching
 
