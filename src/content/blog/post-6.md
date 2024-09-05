@@ -15,7 +15,7 @@ layout: "../../layouts/BlogPost.astro"
 
 ![Blog folder](../../assets/anastasia-shuraeva.jpg)
 
-I believe this will be the most fun article I’ve ever written, mainly because I’m putting together the two things that I like the most in my life right now: mountain biking and programming. Well, you’re probably wondering where I hit my head to come up with the idea to write this article, but I promise it will make sense. 
+I believe this will be the most fun article I’ve ever written, mainly because I’m putting together the two things that I like the most in my life right now: mountain biking and programming. Well, you’re probably wondering where I hit my head to come up with the idea to write this article, but I promise it will make sense.
 
 Something that I like to do is put together things that I like and things that I want to be good at, making parallels between them. In the same way that we use functions inside other functions and create pointers between them, if you learn something and it’s useful, that skill might help you in other areas of your life too. In a simple manner, it’s about how we evolve and try to get better in every aspect of life.
 
@@ -47,13 +47,13 @@ A few days ago, there was a <a href="https://x.com/jessilyneh/status/17477320172
 
 The answer was **perfect** for me. He said:
 
-**“To learn faster, it's essential to focus on active behaviors. If you want to progress from mid-level to senior, it's beneficial to look at the seniors you admire, or those on your team, and observe everything they do.**
+> “ To learn faster, it's essential to focus on active behaviors. If you want to progress from mid-level to senior, it's beneficial to look at the seniors you admire, or those on your team, and observe everything they do.
 
-**Why can't you do their job? What do they do that you don't? Are they better writers? More organized? More disciplined? Do they manage teams and the product? Do they interact with clients? Is their communication better? You need to understand everything they are doing and focus on addressing the reasons why you can't achieve that, thus allowing yourself to evolve.**
+> Why can't you do their job? What do they do that you don't? Are they better writers? More organized? More disciplined? Do they manage teams and the product? Do they interact with clients? Is their communication better? You need to understand everything they are doing and focus on addressing the reasons why you can't achieve that, thus allowing yourself to evolve.
 
-**First, seek more responsibilities, try to solve more complex problems, tackle tougher bugs, and become one of the team's go-to experts. Act like a senior first, and then you'll be considered a senior. Only then will you earn the benefits.”**
+> First, seek more responsibilities, try to solve more complex problems, tackle tougher bugs, and become one of the team's go-to experts. Act like a senior first, and then you'll be considered a senior. Only then will you earn the benefits. ”
 
- This got me thinking about how this is undoubtedly a scenario of someone struggling and making their way through adversity — putting in effort, consistency, and avoiding comfort. Just like a rider who doesn’t choose comfortable lines and trails to explore, even on a hardtail bike.
+This got me thinking about how this is undoubtedly a scenario of someone struggling and making their way through adversity — putting in effort, consistency, and avoiding comfort. Just like a rider who doesn’t choose comfortable lines and trails to explore, even on a hardtail bike.
 
 In this way, I believe we can conclude that we have a specific bottleneck in common — the one that blocks a developer from becoming a senior is the same as what prevents a hardtail rider from evolving: **comfort**.
 
