@@ -61,23 +61,31 @@ Oliver Stone
 
 ### Blogroll
 
-**Personal and CS blogs**
+#### Personal and CS blogs
 - [Naval](https://nav.al/archive)
 - [Sam Altman](https://blog.samaltman.com/)
-- [Sibelius Zettelkasten](https://sibelius.github.io/zettelkasten/)
 - [Paul Graham](https://paulgraham.com/articles.html)
 - [Armand1m](https://armand1m.dev/writing)
+- [Elton Minetto](https://eltonminetto.dev/)
 - [Words of TK](https://www.iamtk.co/)
 - [Noghartt's garden](https://www.noghartt.dev/)
+- [Sibelius Zettelkasten](https://sibelius.github.io/zettelkasten/)
 
-**Company blogs**
+#### News
+
+- [TLDR](https://tldr.tech/)
+- [The Verge](https://www.theverge.com/tech)
+- [Hacker News](https://news.ycombinator.com/)
+
+#### Company blogs
 - [Mercado Libre](https://medium.com/mercadolibre-tech)
 - [X-team](https://x-team.com/blog/)
 - [AWS](https://aws.amazon.com/pt/blogs/aws-brasil/)
+- [Coinbase](https://www.coinbase.com/pt-br/blog/landing/engineering)
+- [Riot Games](https://technology.riotgames.com/)
 - [Netflix](https://netflixtechblog.com/)
-- [Stripe](https://stripe.com/blog)
 
-**Finance blogs**
+#### Finance blogs
 - [Financial Samurai](https://www.financialsamurai.com/)
 - [Bits about Money](https://www.bitsaboutmoney.com/archive/)
 - [The Happy Saver](https://www.thehappysaver.com/blog)
