@@ -14,6 +14,9 @@ module.exports = {
         'll': '1340px',
         '2xl': '1536px',
       },
+      colors: {
+        'navy-blue': '#111827',
+      }
     },
   },
   variants: {},
