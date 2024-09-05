@@ -4,13 +4,15 @@ interface Props {
 }
 
 const { content } = Astro.props;
----
 
-<article class='prose-slate w-sm md:w-prose md:prose poppins'>
-  <p class='text-slate text-sm md:text-base'>
+---
+<article class={`text-lg text-slate-300 w-sm md:w-prose md:prose poppins`}>
+  <p class='text-sm md:text-base'>
     Published on {content.pubDate} by {content.author}
   </p>
   <slot />
-  <p class='text-slate'>Written by {content.author}</p>
-  <a href='/blog/' title='Back to projects'>&larr; Back</a>
+  <section class='text-sm md:text-base'>
+    <p>Written by {content.author}</p>
+    <p>&larr; <a href='/blog/' title='Back to projects'>Back</a></p>
+  </section>
 </article>
