@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+strong {
+  @apply text-cyan-500;
+}
+
+blockquote {
+  @apply border-r-2 border-slate-300 pl-4 font-black text-cyan-400
+}
+
+a {
+  @apply  underline underline-offset-4 hover:font-bold hover:decoration-cyan-500
+}
