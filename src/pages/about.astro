@@ -1,0 +1,146 @@
+---
+import Layout from '@layouts/Default.astro';
+import { Button } from '@eliancodes/brutal-ui';
+import { Card } from '@eliancodes/brutal-ui';
+import { Pill } from '@eliancodes/brutal-ui';
+import pdfen from 'src/components/pdf/gabriel-palhares-cv-english.pdf';
+import pdfpt from 'src/components/pdf/gabriel-palhares-cv-portugues.pdf';
+import { ACTION_ERROR_CODES } from 'astro:actions';
+
+const skills = [
+  { name: 'Typescript', url: 'https://www.typescriptlang.org/' },
+  { name: 'React', url: 'https://react.dev/' },
+  { name: 'Next.js', url: 'https://nextjs.org/' },
+  { name: 'TailwindCSS', url: 'https://tailwindcss.com/' },
+  { name: 'Node.js', url: 'https://nodejs.org/en' },
+  { name: 'Go', url: 'https://go.dev/', alt: 'Go website' },
+  { name: 'Git', url: 'https://git-scm.com/' },
+  { name: 'PostgreSQL', url: 'https://www.postgresql.org/' },
+  { name: 'MongoDB', url: 'https://www.mongodb.com/', alt: 'MongoDB website' },
+  { name: 'Jest', url: 'https://jestjs.io/' },
+  { name: 'Vitest', url: 'https://vitest.dev/' },
+  { name: 'Javascript', url: 'https://www.javascript.com/' },
+  { name: 'HTML5' },
+  { name: 'CSS3' },
+  { name: 'GitHub', url: 'https://github.com/' },
+  { name: 'Data Structures' },
+  { name: 'Algorithms' },
+];
+
+const languages = [
+  { name: 'Portuguese' },
+  { name: 'English C1' },
+  { name: 'Spanish A1' },
+];
+---
+
+<Layout
+  title='About'
+  pageTitle='About me page'
+  description='Gabriel about me page.'
+>
+  <main class='bg-blue p-6 flex-grow'>
+    <section id='cards' class='grid md:grid-cols-8 gap-6 mb-6'>
+    <div class='col-span-4 md:col-span-3'>
+        <Card>
+          <div class='flex flex-col justify-between items-start gap-4'>
+            <h2 class='outfit text-2xl md:text-4xl lg:text-6xl'>
+              About me
+            </h2>
+            <section class='poppins'>
+              <p class="mb-3">
+                <strong>Hi, my name is Gabriel,</strong> also known as <strong>minortypo</strong>.
+                I'm a full-stack web developer and a lifelong computer science student.
+                I enjoy what I do, and I love getting better at what I do.
+              </p>
+              <p class="mb-3">
+                <strong>I work on providing solutions</strong> both in front-end and back-end development, using technologies like JavaScript, TypeScript, React, Node.js, and Go.
+                I also have practical knowledge with relational and non-relational databases, such as PostgreSQL and MongoDB.
+              </p>
+              <p><strong>My academic journey</strong> started with a <strong>Bachelor's in Law</strong>, which was my first college course, and I completed it at the end of 2023.
+              <p>I am currently set to graduate in June 2025 with a degree in <strong>Systems Analysis and Development</strong> from the Catholic University of Minas Gerais (PUC Minas).</p>
+              <p class="mb-3">I also attended an extension program in <strong>Modern Software Engineering</strong> at the Federal University of Minas Gerais (UFMG).</p>
+              </p>
+              <p class="mb-3">
+                <strong>When I'm not coding,</strong> you'll find me enjoying mountain biking and living an outdoor lifestyle.
+                I love practicing sports and doing things that connect me with nature, like hiking and camping. I think everyone needs this kind of experience since it works like a 'reset button,' allowing you to recharge and disconnect from the chaos of the modern world.
+              </p>
+              <p>
+                <strong>I live in Belo Horizonte</strong>, Brazil, the vibrant capital of Minas Gerais, known for it's lively culture, rich history, and irresistible 'pão de queijo' passion.
+              </p>
+            </section>
+          </div>
+        </Card>
+    </div>
+    <div class='col-span-4 md:col-span-3'>
+            <Card>
+              <h2 class='dm-serif mb-4 text-2xl md:text-4xl lg:text-6xl'>
+                Skills
+              </h2>
+              <ul class='flex gap-4 flex-wrap mb-6'>
+                {
+                  skills.map((item) => (
+                    <li>
+                      <Pill>
+                        <a
+                          class='sanchez'
+                          href={item.url}
+                          target='_blank'
+                          title={`Go to ${item.name}`}
+                        >
+                          {item.name}
+                        </a>
+                      </Pill>
+                    </li>
+                  ))
+                }
+              </ul>
+              <section class="poppins">
+                <p class="mb-3">
+                  <strong>Tech stack is a taboo</strong> for many software engineers I've met on my journey. The reason I say this is because, even though I've listed some technologies I focus on and study more, I truly believe that this kind of classification shouldn't exist. Titles like 'JavaScript Developer' or 'Java Engineer' make no sense to me. You are a software engineer. This alone should mean you solve problems using tech, applying tools that are part of your work, regardless of which ones they are.
+                </p>
+                <p>
+                  <strong>I believe every software engineer</strong> should have the curiosity, courage, and flexibility to use different programming languages and tech stacks in various scenarios and contexts, with the main requirement being 'what's best for the problem you're solving'. That being said, I know I'll probably never be great at everything, but I'll always be open to and interested in learning new things and solving problems in more than one way.
+                </p>
+              </section>
+            </Card>
+    </div>
+    <div class='col-span-4 md:col-span-2'>
+        <Card>
+          <h2 class='dm-serif mb-4 text-2xl ml:text-4xl ll:text-6xl'>
+            Languages
+          </h2>
+          <ul class='flex gap-4 flex-wrap mb-6'>
+            {
+              languages.map((item) => (
+                <li>
+                  <Pill>
+                    <a class='sanchez'>
+                      {item.name}
+                    </a>
+                  </Pill>
+                </li>
+              ))
+            }
+          </ul>
+          <section class="poppins">
+            <p class="mb-3"><strong>I was born in Brazil,</strong> so my native language is Brazilian Portuguese. Since childhood, I've always had a strong interest in history and geography. I remember one of my hobbies was playing with a world globe we had at school, which one day sparked my curiosity and desire to learn other languages.</p>
+            <p class="mb-3"><strong>During my teenage years,</strong> I had the opportunity and privilege to study English as a Second Language (ESL). From that point on, I started consuming all sorts of content in English: books, movies, series, music, and over time, I became very proficient in the language.</p>
+            <p><strong>Recently,</strong> I've developed a strong passion for Latin American countries, inspiring me to learn Spanish. I look forward to traveling and exploring Brazil's neighbors, so I hope to become fluent soon. This will allow me to communicate in places such as Argentina, Chile, Peru, and Paraguay.</p>
+          </section>
+    </div>
+    </section>
+    <div class="flex gap-4 justify-center">
+      <Button
+        target={'_blank'}
+        href={pdfen}>
+          cv download en-us
+      </Button>  
+      <Button
+        target={'_blank'}
+        href={pdfpt}>
+          cv download pt-br <span class="icon-[flag--br-4x3]"></span>
+      </Button>
+    </div>
+  </main>
+</Layout>
