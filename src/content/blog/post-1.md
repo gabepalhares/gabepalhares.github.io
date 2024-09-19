@@ -24,15 +24,16 @@ So, let’s go straight to the point: Woovi and Sibelius bet on JavaScript. Shou
 Dawn, so why did you decide to write this article? Sibelius has already covered all the tech details about JavaScript and their decision. Well, as I mentioned in the beginning, there are some additional points to make.
 
 ## Thoughts
-**It’s not an easy and personal choice when a company's business is at stake**
+
+- **It’s not an easy and personal choice when a company's business is at stake**
 
 Every senior developer knows that this kind of decision has a lot of details behind it, and it’s not always an easy choice. It’s also not always something that is solely in their hands. In most cases, it's the company's decision that prevails in the end. However, as a CTO, Tech Lead, or Senior Developer, you can argue and help them decide which technology will be better for the company’s goals, based on your experience and the team's skills.
 
-**In 95% of cases, it's initially better to focus on the product and company rather than the tech stack**
+- **In 95% of cases, it's initially better to focus on the product and company rather than the tech stack**
 
 One significant mistake often made by junior developers (and sometimes by many seniors) is that, instead of focusing on understanding the company and its product, some developers end up getting stuck in discussions about why a specific programming language is used. This distraction is less relevant when you initially join a company compared to the importance of grasping the nuances of the company and its products. Additionally, it's crucial to remember that changing your personal career stack is much easier than changing a company's stack.
 
-**Changing the stack in a mid-to-large-sized product or company is not easy**
+- **Changing the stack in a mid-to-large-sized product or company is not easy**
 
 For a company that has many years in the market or perhaps a particular growth product, it’s challenging to change the stack without breaking it. We see many companies in the market changing their stack and working on legacy code. This is a typical bottleneck caused because, in the early stages, they weren’t able to decide which stack would be best for the company or because it wasn’t deemed important at that time. Sometimes, the only goal was to make the product work and sell it, although they knew many problems would arise in the future. That's fair, but at some point, it decreases the evolution of the company because everyone will be fixing technical debt and working on legacy code.
 
