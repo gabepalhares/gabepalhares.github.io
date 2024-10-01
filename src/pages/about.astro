@@ -1,11 +1,7 @@
 ---
 import Layout from '@layouts/Default.astro';
-import { Button } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
 import { Pill } from '@eliancodes/brutal-ui';
-import pdfen from 'src/components/pdf/gabriel-palhares-cv-english.pdf';
-import pdfpt from 'src/components/pdf/gabriel-palhares-cv-portugues.pdf';
-import { ACTION_ERROR_CODES } from 'astro:actions';
 
 const skills = [
   { name: 'Typescript', url: 'https://www.typescriptlang.org/' },
@@ -49,12 +45,12 @@ const languages = [
             </h2>
             <section class='poppins'>
               <p class="mb-3">
-                <strong>Hi, my name is Gabriel,</strong> also known as <strong>minortypo</strong>.
+                <strong>Hi, my name is Gabriel,</strong> also known as <strong>Palhares</strong>.
                 I'm a full-stack web developer and a lifelong computer science student.
                 I enjoy what I do, and I love getting better at what I do.
               </p>
               <p class="mb-3">
-                <strong>I work on providing solutions</strong> both in front-end and back-end development, using technologies like JavaScript, TypeScript, React, Node.js, and Go.
+                <strong>I work on providing solutions</strong> both in front-end and back-end development, using technologies like TypeScript, React, Node, and Go.
                 I also have practical knowledge with relational and non-relational databases, such as PostgreSQL and MongoDB.
               </p>
               <p class="mb-3"><strong>My academic journey</strong> began with a Bachelor's in <strong>Law</strong>, which I completed in late 2023.
@@ -63,10 +59,7 @@ const languages = [
               </p>
               <p class="mb-3">
                 <strong>When I'm not coding,</strong> you'll find me enjoying mountain biking and living an outdoor lifestyle.
-                I love practicing sports and doing things that connect me with nature, like hiking and camping. I think everyone needs this kind of experience since it works like a 'reset button', allowing you to recharge and return to your full potential.
-              </p>
-              <p>
-                <strong>I live in Belo Horizonte</strong>, Brazil, the vibrant capital of Minas Gerais, known for it's lively culture, rich history, and irresistible passion for 'pão de queijo' - one of my favorite foods.
+                I love practicing sports and doing things that connect me with nature, like hiking and camping. I think everyone needs this kind of experience since it works like a 'reset button', allowing you to recharge and return to being your best self.
               </p>
             </section>
           </div>
@@ -96,9 +89,6 @@ const languages = [
                 }
               </ul>
               <section class="poppins">
-                <p class="mb-3">
-                  <strong>Although I have listed</strong> some technologies that I focus on and specialize in, I truly believe this kind of classification shouldn't exist. Titles like 'JavaScript Developer' or 'Java Engineer' don't make sense to me. You are a software engineer, and that alone should mean you solve problems using technology, applying whatever tools are necessary for the job, regardless of what they are.
-                </p>
                 <p>
                   <strong>I believe every software engineer</strong> should have the curiosity, courage, and flexibility to use different programming languages and tech stacks in specific scenarios and contexts, with the main requirement being 'what's best for the problem you're solving'. That being said, I know I'll probably never be great at everything, but I'll always be open to and interested in learning new things and solving problems in more than one way.
                 </p>
@@ -124,9 +114,9 @@ const languages = [
             }
           </ul>
           <section class="poppins">
-            <p class="mb-3"><strong>I was born in Brazil,</strong> so my native language is Brazilian Portuguese. When I was a child, I remember playing with a world globe we had at school, and funny enough, it was this that one day sparked my curiosity and desire to learn other languages. It was a thought like: 'What's it like up there? I want to discover'.</p>
-            <p class="mb-3"><strong>During my teenage years,</strong> I had the opportunity and privilege to study English as a Second Language (ESL) at the CCAA English School. From that point on, I started consuming all sorts of content in English - books, movies, music - and over time, I became very proficient in English.</p>
-            <p><strong>Recently,</strong> I've developed a strong passion for Brazil's neighboring countries, driving me to learn Spanish. One of my goals is to travel and explore other South American countries, so I hope to become fluent soon, as this will allow me to communicate in places such as Argentina, Chile, Peru, and Paraguay.</p>
+            <p class="mb-3"><strong>I was born in Brazil,</strong> so my native language is Brazilian Portuguese. Since childhood, I've had the desire to learn other languages and explore new cultures. It was a thought like: 'What's it like up there? I want to discover'.</p>
+            <p class="mb-3"><strong>During my teenage years,</strong> I had the opportunity to study English as a Second Language (ESL) at the CCAA English School. From that point on, I started consuming all sorts of content in English - books, movies, music - and over time, I became very proficient in English.</p>
+            <p><strong>Recently,</strong> I've developed a strong passion for Brazil's neighboring countries, which has driven me to learn Spanish and travel to other South American countries, such as Argentina, Chile, Peru, and Paraguay.</p>
           </section>
     </div>
     </section>
