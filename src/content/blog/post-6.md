@@ -6,7 +6,7 @@ tags:
   - Webdev
   - Mtb
   - Career
-description: I highlighted key points from Sibelius' recent talk with Jess Felix and connected them to my passions.
+description: Key points from Sibelius' recent talk with Jess Felix and how MTB is related to coding.
 imgUrl: '../../assets/anastasia-shuraeva.jpg'
 layout: "../../layouts/BlogPost.astro"
 ---

@@ -5,7 +5,7 @@ pubDate: 2024-10-14 15:48
 tags:
   - Career
   - Productivity
-description: A personal reflection on courage and overcoming challenges, the strength it takes to confront uncertainties and move forward.
+description: 'A reflection on courage and overcoming challenges: the strength it takes to confront uncertainties and move forward.'
 imgUrl: '../../assets/bonfire.jpg'
 layout: "../../layouts/BlogPost.astro"
 ---
