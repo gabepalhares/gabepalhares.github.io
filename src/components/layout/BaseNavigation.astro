@@ -17,12 +17,12 @@ const socialIcons = [
     icon: 'i-ri-github-fill',
   },  
   {
-    name: 'Twitter',
+    name: 'X',
     url: 'https://x.com/gabepalhares',
     icon: 'i-ri-twitter-x-line',
   },
   {
-    name: 'e-mail',
+    name: 'E-mail',
     url: 'mailto:hi@gabrielpalhares.dev',
     icon: 'i-uil-envelope-alt' },
 ];
@@ -58,7 +58,7 @@ const { pageTitle } = Astro.props;
               href={item.url}
               class='hover:text-green-500 transition-all duration-150 ease-in-out'
               target='_blank'
-              title={`'@GabrielPalhares on ${item.name}`}
+              title={`'@gabepalhares on ${item.name}`}
             >
               <div class:list={[item.icon, 'w-6 h-6']} />
             </a>
