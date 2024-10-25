@@ -17,17 +17,18 @@ layout: "../../layouts/BlogPost.astro"
 ### People I admire and inspire me
 
 - My Father
-- [Vitor Liberato](https://twitter.com/vitorliberato)
-- [Armando Magalhães](https://twitter.com/armand1m)
-- [Sibelius Seraphini](https://twitter.com/sseraphini)
-- [Laura Beatris](https://twitter.com/lauradotjs)
-- [Beatriz Oliveira](https://twitter.com/biantris_)
+- [Armando Magalhães](https://x.com/armand1m)
+- [Sibelius Seraphini](https://x.com/sseraphini)
+- [Laura Beatris](https://x.com/lauradotjs)
+- [Beatriz Oliveira](https://x.com/biantris_)
+- [Vitor Liberato](https://x.com/vitorliberato)
 
 ### Books
 
+- [O segredo maior do mundo](https://www.goodreads.com/book/show/87265306-o-segredo-maior-do-mundo?ac=1) - Sayaru
 - [O fim da eternidade](https://www.goodreads.com/book/show/509784.The_End_of_Eternity) - Isaac Asimov
 - [Uma breve história do tempo](https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time) - Stephen Hawking
-- [A arte da Guerra](https://www.goodreads.com/book/show/10534.The_Art_of_War) - Sun Tzu
+- [A revolta de Atlas](https://www.goodreads.com/book/show/9555414-a-revolta-de-atlas) - Ayn Rand
 - [A lógica do Cisne Negro](https://www.goodreads.com/book/show/5113684-a-l-gica-do-cisne-negro) - Nassim Nicholas Taleb
 - [Anti-frágil: Coisas que se beneficiam com o caos](https://www.goodreads.com/book/show/13530973-antifragile) - Nassim Nicholas Taleb
 
@@ -41,18 +42,17 @@ layout: "../../layouts/BlogPost.astro"
 - [Crafting Interpreters](https://www.goodreads.com/book/show/58661468-crafting-interpreters) - Robert Nystrom
 - [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications) - Martin Kleppmann
 - [The Mythical Man-Month](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - Frederick P. Brooks Jr.
-- [Fundamentals of Software Architecture](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture) - Neal Ford, Mark Richards
-- [Software Architecture: The Hard Parts](https://www.goodreads.com/book/show/58153482-software-architecture) - Neal Ford, Mark Richards, Pramod J. S.
 
 ### Movies worth watching
 
-- [Whiplash](https://www.imdb.com/title/tt2582802/?ref_=ext_shr_lnk) - Damien Chazelle
 - [Fantastic Mr. Fox](https://www.imdb.com/title/tt0432283/?ref_=ext_shr_lnk) - Wes Anderson
+- [Whiplash](https://www.imdb.com/title/tt2582802/?ref_=ext_shr_lnk) - Damien Chazelle
+- [Ocean Waves](https://www.imdb.com/title/tt0108432/?ref_=ext_shr_lnk) - Tomomi Mochizuki, Studio Ghibli
+- [The Secret Life of Walter Mitty](https://www.imdb.com/title/tt0359950/?ref_=ext_shr_lnk) - Ben Stiller
 - [The Godfather Part II](https://www.imdb.com/title/tt0071562/?ref_=ext_shr_lnk) - Francis Ford Coppola 
 - [Interstellar](https://www.imdb.com/title/tt0816692/?ref_=ext_shr_lnk) - Christopher Nolan
 - [Snowden](https://www.imdb.com/title/tt3774114/?ref_=ext_shr_lnk) - 
 Oliver Stone
-- [Ocean Waves](https://www.imdb.com/title/tt0108432/?ref_=ext_shr_lnk) - Tomomi Mochizuki, Studio Ghibli
 
 ### Videos worth watching
 - [Motivação para estudar](https://youtu.be/TRPBY_lxJfE?si=-wBYF18mw8QMy6z_) - Clóvis de Barros Filho
